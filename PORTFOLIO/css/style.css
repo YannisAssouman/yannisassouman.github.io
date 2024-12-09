@@ -1,0 +1,125 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to top #f2f2f2, to bottom #d45);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#about {
+    padding: 20px;
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.about-info {
+    padding-left: 20px;
+}
+
+.about-info h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#bts-sio {
+    padding: 20px;
+}
+
+#bts-sio h2 {
+    margin-top: 0;
+}
+
+#bts-sio h3 {
+    margin-top: 20px;
+}
+
+#bts-sio h4 {
+    margin-top: 15px;
+}
+
+#bts-sio p {
+    margin: 0;
+}
+
+#bts-sio ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+#bts-sio ul li {
+    list-style-type: disc;
+}
+
+<!--Veille technologique-->
+
+#veille-technologique {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.widget-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.widget {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 10px;
+}
+
+.widget ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.widget ul li a:hover {
+    text-decoration: underline;
+}
+
